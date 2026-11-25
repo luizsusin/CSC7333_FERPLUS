@@ -1,0 +1,10 @@
+\begin{tabular}{lcccccc}
+\toprule
+Model & Clean & Noise & Occlusion & Low light & Eyes hidden & Mouth hidden \\
+\midrule
+HOG + SVM & 0.631 & 0.428 (68\%) & 0.432 (68\%) & 0.625 (99\%) & 0.295 (47\%) & 0.226 (36\%) \\
+CNN (scratch) & 0.790 & 0.508 (64\%) & 0.665 (84\%) & 0.569 (72\%) & 0.564 (71\%) & 0.582 (74\%) \\
+ResNet-18 & \textbf{0.831} & 0.520 (63\%) & \textbf{0.712} (86\%) & \textbf{0.698} (84\%) & 0.594 (71\%) & \textbf{0.650} (78\%) \\
+EfficientNet-B0 & 0.808 & \textbf{0.540} (67\%) & 0.668 (83\%) & 0.670 (83\%) & \textbf{0.625} (77\%) & 0.557 (69\%) \\
+\bottomrule
+\end{tabular}

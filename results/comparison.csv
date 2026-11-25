@@ -1,0 +1,5 @@
+model,accuracy,macro F1,macro precision,macro recall,clean accuracy,clean macro F1,parameters (M),train time (min),ms / image
+HOG + SVM,0.7083,0.6313,0.6792,0.6055,0.6924,0.5960,,3.3767,4.2350
+CNN (scratch),0.8356,0.7904,0.7739,0.8142,0.8302,0.7807,4.8190,42.2283,0.4990
+ResNet-18,0.8753,0.8312,0.8388,0.8304,0.8723,0.8254,11.1796,31.5767,1.3060
+EfficientNet-B0,0.8588,0.8075,0.8072,0.8140,0.8539,0.7969,4.0152,24.5517,1.3680
